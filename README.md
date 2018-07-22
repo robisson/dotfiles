@@ -1,2 +1,2 @@
 # dotfiles
-Repository to save my dotfiles config
+Repository to save my dotfiles and apps in the local config
