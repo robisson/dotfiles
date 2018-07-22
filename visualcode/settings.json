@@ -26,5 +26,6 @@
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
     "vsicons.dontShowNewVersionMessage": true,
-    "editor.fontSize": 14
+    "editor.fontSize": 14,
+    "zenMode.centerLayout": false
   }
