@@ -23,5 +23,13 @@ alias gc='git commit'
 alias gp='git pull --rebase'
 alias gcam='git commit -am'
 alias gl='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
-alis ds='docker start'
 
+#execute docker start or docker ps
+function ds(){
+  if [[ "$1" ]] 
+then
+  docker start $1
+else 
+  docker ps
+fi
+}
